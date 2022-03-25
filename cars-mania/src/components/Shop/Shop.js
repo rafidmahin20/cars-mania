@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import Cars from '../Cars/cars';
 import './shop.css';
 const Shop = () => {
     const [data, setData] = useState([]);
@@ -7,11 +8,13 @@ const Shop = () => {
         fetch('data.json')
         .then(res => res.json())
         .then(data => setData(data))
-    }, [])
+    }, []);
     return ( 
         <div className='shop-container'>
            <div className='cars-container'>
-               this is cars: {data.length}
+               {
+                  data.map(data => <Cars></Cars>)
+               }
            </div>
            <div className='cart-container'>
                Your Cars
