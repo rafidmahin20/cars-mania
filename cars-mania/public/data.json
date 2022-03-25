@@ -1,44 +1,56 @@
 [
     {
-      "_id": "623ddefc855f52e11083a4b1",
-      "picture": "http://placehold.it/32x32",
-      "price": 20869,
-      "name": "Padilla Bernard"
+      "_id": "1",
+      "image": "file:///F:/assignment%208/cars-mania/src/images/luxury-sport-car-with-xenon-lights-front-view.jpg",
+      "price": 30869,
+      "name": "Audi A6"
     },
     {
-      "_id": "623ddefcb14a4d9db3bb90fc",
-      "picture": "http://placehold.it/32x32",
+      "_id": "2",
+      "image": "http://placehold.it/32x32",
       "price": 30820,
       "name": "Mai Deleon"
     },
     {
-      "_id": "623ddefcd3bb68c5e97cfa94",
-      "picture": "http://placehold.it/32x32",
+      "_id": "3",
+      "image": "http://placehold.it/32x32",
       "price": 41393,
       "name": "Lara Crane"
     },
     {
-      "_id": "623ddefc43d726dab17c68a1",
-      "picture": "http://placehold.it/32x32",
+      "_id": "4",
+      "image": "http://placehold.it/32x32",
       "price": 40234,
       "name": "Avery Alford"
     },
     {
-      "_id": "623ddefcd6aee072da517ead",
-      "picture": "http://placehold.it/32x32",
+      "_id": "5",
+      "image": "http://placehold.it/32x32",
       "price": 37523,
       "name": "Hernandez Woodard"
     },
     {
-      "_id": "623ddefcad72b4d20d5b9d09",
-      "picture": "http://placehold.it/32x32",
+      "_id": "6",
+      "image": "http://placehold.it/32x32",
       "price": 29243,
       "name": "Aileen Bell"
     },
     {
-      "_id": "623ddefcc48a6a14aacb8fe1",
-      "picture": "http://placehold.it/32x32",
+      "_id": "7",
+      "image": "http://placehold.it/32x32",
       "price": 40358,
       "name": "Melinda Jacobson"
-    }
+    },
+    {
+        "_id": "8",
+        "image": "http://placehold.it/32x32",
+        "price": 34358,
+        "name": "Melinda Jacobson"
+    },
+    {
+        "_id": "9",
+        "image": "http://placehold.it/32x32",
+        "price": 39358,
+        "name": "Melinda Jacobson"
+    },
   ]
