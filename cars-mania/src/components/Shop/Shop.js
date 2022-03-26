@@ -9,7 +9,7 @@ const Shop = () => {
     const [cart, setCart] = useState([]);
 
     const handleAddToCart = (_id) => {
-        let newArray
+        let newArray;
         const existingCart = cart.find(item => item._id === cars._id);
         if(!existingCart && cart.length < 4) {
             newArray = [...cart, _id];
@@ -32,6 +32,19 @@ const Shop = () => {
         .then(res => res.json())
         .then(data => setData(data))
     }, []);
+
+    const chooseOneButton = () => {
+        let newItem;
+        const randomItem = Math.round(Math.random() * cart.length);
+        {
+            const randomCar = cart.find(item => item._id === randomItem);
+            if(randomCar){
+                newItem = [randomCar];
+                setCart(newItem);
+            }
+        }
+        console.log(randomItem);
+    }
     return ( 
         <div className='shop-container'>
            <div className='cars-container'>
@@ -51,7 +64,7 @@ const Shop = () => {
                     cart = {cart}
                     ></Cart>)
                }
-               <button className='btn-choose'>
+               <button onClick={chooseOneButton} className='btn-choose'>
                    <p>choose one</p>
                </button>
            </div>
