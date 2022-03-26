@@ -37,7 +37,7 @@ const Shop = () => {
         let newItem;
         const randomItem = Math.round(Math.random() * cart.length);
         {
-            const randomCar = cart.find(item => item._id === randomItem);
+            const randomCar = cart[randomItem];
             if(randomCar){
                 newItem = [randomCar];
                 setCart(newItem);
@@ -66,6 +66,13 @@ const Shop = () => {
                }
                <button onClick={chooseOneButton} className='btn-choose'>
                    <p>choose one</p>
+               </button>
+               <br></br>
+               <button onClick={() => {
+                   setCart([]);
+               }}
+                className='choose-again'>
+                   <p>choose again</p>
                </button>
            </div>
            <div>
