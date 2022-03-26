@@ -6,6 +6,13 @@ const cars = (props) => {
     return (
         <div className='cars'>
             <img src={image} alt=""></img>
+            <div className='cars-info'>
+            <p className='cars-name'>{name}</p>
+            <p>price: $</p>
+            </div>
+            <button className='btn-car'>
+                <p>Add To Cart</p>
+            </button>
         </div>
     );
 };
