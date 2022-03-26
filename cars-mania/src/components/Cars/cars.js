@@ -1,4 +1,5 @@
 import React from 'react';
+import './cars.css';
 
 const cars = (props) => {
     const {name, image, price} = props.data;
