@@ -1,56 +1,56 @@
 [
     {
       "_id": "1",
-      "image": "file:///F:/assignment%208/cars-mania/src/images/audi.jpg",
+      "image": "https://i.ibb.co/18jHzWV/audi.jpg",
       "price": 30869,
       "name": "Audi A6"
     },
     {
       "_id": "2",
-      "image": "http://placehold.it/32x32",
+      "image": "https://i.ibb.co/RcMW5qc/bmw.jpg",
       "price": 30820,
-      "name": "Mai Deleon"
+      "name": "BMW M"
     },
     {
       "_id": "3",
-      "image": "http://placehold.it/32x32",
+      "image": "https://i.ibb.co/Dtnf79s/lambo.jpg",
       "price": 41393,
-      "name": "Lara Crane"
+      "name": "Lamborgini"
     },
     {
       "_id": "4",
-      "image": "http://placehold.it/32x32",
+      "image": "https://i.ibb.co/fxkjVjn/camero.jpg",
       "price": 40234,
-      "name": "Avery Alford"
+      "name": "camero"
     },
     {
       "_id": "5",
-      "image": "http://placehold.it/32x32",
+      "image": "https://i.ibb.co/HtQQfrr/mazda.jpg",
       "price": 37523,
-      "name": "Hernandez Woodard"
+      "name": "mazda"
     },
     {
       "_id": "6",
-      "image": "http://placehold.it/32x32",
+      "image": "https://i.ibb.co/9bWybSQ/m-sport.jpg",
       "price": 29243,
-      "name": "Aileen Bell"
+      "name": "M Sport"
     },
     {
       "_id": "7",
-      "image": "http://placehold.it/32x32",
+      "image": "https://i.ibb.co/VD3XtZR/SUV.jpg",
       "price": 40358,
-      "name": "Melinda Jacobson"
+      "name": "SUV"
     },
     {
         "_id": "8",
-        "image": "http://placehold.it/32x32",
+        "image": "https://i.ibb.co/H7xqSW7/Aqua.jpg",
         "price": 34358,
-        "name": "Melinda Jacobson"
+        "name": "Aqua"
     },
     {
         "_id": "9",
-        "image": "http://placehold.it/32x32",
+        "image": "https://i.ibb.co/Rcyq3MN/lexus.jpg",
         "price": 39358,
-        "name": "Melinda Jacobson"
+        "name": "Lexus"
     }
   ]
