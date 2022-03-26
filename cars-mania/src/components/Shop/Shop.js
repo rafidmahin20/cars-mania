@@ -37,6 +37,12 @@ const Shop = () => {
                     ></Cart>)
                }
            </div>
+           <div>
+               <h2>How React works?</h2>
+               <p>react is js library but not a mvc framework. React basically maintain the tree for you. This tree does efficient diff computations on the nodes. It react allows you to re-construct your dom with changes to the dom. which have actually occured with the help of virtual dom.</p>
+               <h2>Difference between props vs state?</h2>
+               <p>states are mutable, props are immutable. You can define state in the component itself. In props You can pass properties from parent components. The state is set and uploaded by the object. In props, determine the view upon creation and then they remain static. Both are accessible as attributes of the component class and compose components with a different representation view.</p>
+           </div>
         </div>
     );
 };
