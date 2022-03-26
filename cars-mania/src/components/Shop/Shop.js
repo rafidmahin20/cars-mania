@@ -3,6 +3,7 @@ import Cars from '../Cars/cars';
 import './shop.css';
 const Shop = () => {
     const [data, setData] = useState([]);
+    const [cart, setCart] = useState([]);
 
     useEffect( () => {
         fetch('data.json')
