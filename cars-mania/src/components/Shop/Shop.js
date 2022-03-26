@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import cars from '../Cars/cars';
 import Cars from '../Cars/cars';
 import Cart from '../Cart/Cart';
 import './shop.css';
@@ -8,8 +9,22 @@ const Shop = () => {
     const [cart, setCart] = useState([]);
 
     const handleAddToCart = (_id) => {
-        const newArray = [...cart, _id];
-        setCart(newArray);
+        let newArray
+        const existingCart = cart.find(item => item._id === cars._id);
+        if(!existingCart && cart.length < 4) {
+            newArray = [...cart, _id];
+            setCart(newArray);
+        }
+        else if(cart.length >=4) {
+            alert('cannot add items');
+        }
+        else{
+            newArray = [...cart];
+            alert('added');
+            setCart(newArray);
+        }
+        // const newArray = [...cart, _id];
+        // setCart(newArray);
     }
 
     useEffect( () => {
