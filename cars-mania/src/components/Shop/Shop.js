@@ -36,6 +36,9 @@ const Shop = () => {
                     cart = {cart}
                     ></Cart>)
                }
+               <button className='btn-choose'>
+                   <p>choose one</p>
+               </button>
            </div>
            <div>
                <h2>How React works?</h2>

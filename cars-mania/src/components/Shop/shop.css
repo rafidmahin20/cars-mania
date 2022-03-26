@@ -7,3 +7,9 @@
     grid-template-columns: repeat(3, 1fr);
     gap: 45px;
 }
+.btn-choose{
+    width: 100%;
+    background-color: cadetblue;
+    border: none;
+    border-radius: 0px 0px 8px 8px;
+}
