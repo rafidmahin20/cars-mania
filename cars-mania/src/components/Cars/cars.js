@@ -1,9 +1,10 @@
 import React from 'react';
 
-const cars = () => {
+const cars = (props) => {
+    const {name, image, price} = props.data;
     return (
         <div>
-            <h2>this is car</h2>
+            <img src={image} alt=""></img>
         </div>
     );
 };

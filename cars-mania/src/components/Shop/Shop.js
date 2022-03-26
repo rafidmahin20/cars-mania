@@ -13,7 +13,11 @@ const Shop = () => {
         <div className='shop-container'>
            <div className='cars-container'>
                {
-                  data.map(data => <Cars></Cars>)
+                  data.map(data => <Cars 
+                    key={data._id}
+                    data = {data}
+                    >
+                    </Cars>)
                }
            </div>
            <div className='cart-container'>
