@@ -10,7 +10,7 @@ const cars = ({data, handleAddToCart}) => {
             <img src={image} alt=""></img>
             <div className='cars-info'>
             <p className='cars-name'>{name}</p>
-            <p>price: ${price}</p>
+            <p>price: $ {price}</p>
             </div>
             <button onClick={() => handleAddToCart(data)} className='btn-car'>
                 <p>Add To Cart <BsFillCartFill/></p>

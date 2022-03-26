@@ -1,8 +1,8 @@
 import React from 'react';
 import './cart.css'
 
-const Cart = () => {
-    const {name, image} = Cart;
+const Cart = ({cart}) => {
+    const {name, image} = cart;
     return (
         <div className='cart-info'>
             <img src={image} alt=""></img>
